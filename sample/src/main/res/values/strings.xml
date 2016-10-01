@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimpleBottomNavigation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_first_fragment">1st Fragment</string>
+    <string name="hello_second_fragment">2nd Fragment</string>
+    <string name="hello_third_fragment">3rd Fragment</string>
+
+</resources>
