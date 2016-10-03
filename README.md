@@ -91,4 +91,4 @@ http://www.apache.org/licenses/LICENSE-2.0
 ```
 
 [materialDesignLink]: https://material.google.com/components/bottom-navigation.html#bottom-navigation-specs
-[mavenAarDownload]: https://jcenter.bintray.com/com/drunkpiano/simplebottomnavigationbar/1.0.0/:simplebottomnavigationbar-1.0.0.aar
+[mavenAarDownload]: https://jcenter.bintray.com/com/drunkpiano/simplebottomnavigationbar/1.0.0/simplebottomnavigationbar-1.0.0.aar
