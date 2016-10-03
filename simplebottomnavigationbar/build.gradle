@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'//添加
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
@@ -19,6 +19,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -28,4 +31,14 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.0'
     testCompile 'junit:junit:4.12'
+}
+//添加
+publish {
+    userOrg = 'larrylawrence'//bintray.com用户名
+    groupId = 'com.drunkpiano'//jcenter上的路径
+    artifactId = 'simplebottomnavigationbar'//项目名称
+    publishVersion = '1.0.0'//版本号
+    desc = 'A simple bottom navigation bar, according with Material Design.'//描述，不重要
+    website = 'https://github.com/LarryLawrence/SimpleBottomNavigationBar'
+//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }
