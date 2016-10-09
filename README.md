@@ -13,20 +13,20 @@ Download [the latest AAR][mavenAarDownload], or:
 
 in your build.gradle:
 ```groovy
-compile 'com.drunkpiano:simplebottomnavigationbar:1.0.0'
+compile 'com.drunkpiano:simplebottomnavigationbar:1.0.1'
 ```
 or, grab via Maven:
 ```xml
 <dependency>
   <groupId>com.drunkpiano</groupId>
   <artifactId>simplebottomnavigationbar</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
 or Ivy:
 ```xml
-<dependency org='com.drunkpiano' name='simplebottomnavigationbar' rev='1.0.0'>
+<dependency org='com.drunkpiano' name='simplebottomnavigationbar' rev='1.0.1'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
 ```
@@ -91,4 +91,4 @@ http://www.apache.org/licenses/LICENSE-2.0
 ```
 
 [materialDesignLink]: https://material.google.com/components/bottom-navigation.html#bottom-navigation-specs
-[mavenAarDownload]: https://jcenter.bintray.com/com/drunkpiano/simplebottomnavigationbar/1.0.0/simplebottomnavigationbar-1.0.0.aar
+[mavenAarDownload]: https://jcenter.bintray.com/com/drunkpiano/simplebottomnavigationbar/1.0.1/simplebottomnavigationbar-1.0.1.aar
