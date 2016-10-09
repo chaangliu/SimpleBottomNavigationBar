@@ -1,7 +1,7 @@
 package com.drunkpiano.simplebottomnavigationbar;
 
 import android.graphics.drawable.Drawable;
-import android.support.annotation.DrawableRes;
+//import android.support.annotation.DrawableRes;
 
 /**
  * @author DrunkPiano.
@@ -18,7 +18,7 @@ public class BottomNavItem {
         mText = s;
     }
 
-    public BottomNavItem(@DrawableRes int drawable, String s) {
+    public BottomNavItem(int drawable, String s) {
         mIconResource = drawable;
         mText = s;
     }

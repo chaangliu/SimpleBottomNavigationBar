@@ -29,7 +29,6 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:24.2.0'
     testCompile 'junit:junit:4.12'
 }
 //添加
@@ -37,8 +36,7 @@ publish {
     userOrg = 'larrylawrence'//bintray.com用户名
     groupId = 'com.drunkpiano'//jcenter上的路径
     artifactId = 'simplebottomnavigationbar'//项目名称
-    publishVersion = '1.0.0'//版本号
-    desc = 'A simple bottom navigation bar, according with Material Design.'//描述，不重要
+    publishVersion = '1.0.0'
+    desc = 'A simple bottom navigation bar, according with Material Design.'
     website = 'https://github.com/LarryLawrence/SimpleBottomNavigationBar'
-//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }
