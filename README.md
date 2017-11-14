@@ -2,8 +2,6 @@
 
 A simple bottom navigation bar, wrote exactly according to the [material design's description][materialDesignLink].
 
-It supports 2 ~ 5 tabs.
-
 ![banner](https://github.com/LarryLawrence/SimpleBottomNavigationBar/blob/master/screenshots/navi.gif)
 
 # Download
@@ -47,7 +45,7 @@ or Ivy:
 ```java
 BottomNav bottomNav = (BottomNav) findViewById(R.id.bottom_nav);
 
-//Add 2 ~ 5 tabs here.
+//Add tabs here.
 bottomNav
         .addItem(new BottomNavItem(R.drawable.ic_lightbulb_outline_black_24dp, "Bulb"))
         .addItem(new BottomNavItem(R.drawable.ic_tag_faces_black_24dp, "Smile"))

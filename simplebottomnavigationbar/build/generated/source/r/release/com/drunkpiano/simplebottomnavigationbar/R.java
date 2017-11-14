@@ -14,6 +14,7 @@ public final class R {
         public static int ripple_effect=0x7f020000;
     }
     public static final class id {
+        public static int imageView=0x7f050011;
         public static int imageView1=0x7f050002;
         public static int imageView2=0x7f050005;
         public static int imageView3=0x7f050008;
@@ -25,6 +26,8 @@ public final class R {
         public static int tab3=0x7f050007;
         public static int tab4=0x7f05000a;
         public static int tab5=0x7f05000d;
+        public static int tabLinearLayout=0x7f050010;
+        public static int textView=0x7f050012;
         public static int textView1=0x7f050003;
         public static int textView2=0x7f050006;
         public static int textView3=0x7f050009;
@@ -33,6 +36,7 @@ public final class R {
     }
     public static final class layout {
         public static int widget_bottom_navi=0x7f030000;
+        public static int widget_single_tab=0x7f030001;
     }
     public static final class string {
         public static int app_name=0x7f040000;

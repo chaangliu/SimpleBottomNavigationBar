@@ -1,7 +1,6 @@
 package com.drunkpiano.simplebottomnavigationbar;
 
 import android.graphics.drawable.Drawable;
-//import android.support.annotation.DrawableRes;
 
 /**
  * @author DrunkPiano.
@@ -9,17 +8,34 @@ import android.graphics.drawable.Drawable;
  */
 
 public class BottomNavItem {
-    protected Drawable mIcon;
-    protected int mIconResource;
-    protected String mText;
+	int mDrawableSelected;
+	int mDrawableUnselected;
+	String mText;
+	//    String mTabTag;
+	int mTabIndex;
 
-    public BottomNavItem(Drawable drawable, String s) {
-        mIcon = drawable;
-        mText = s;
-    }
+//    public BottomNavItem(Drawable drawable, String s) {
+//        mIcon = drawable;
+//        mText = s;
+//    }
+//
+//    public BottomNavItem(int drawable, String s) {
+//        mIconResource = drawable;
+//        mText = s;
+//    }
 
-    public BottomNavItem(int drawable, String s) {
-        mIconResource = drawable;
-        mText = s;
-    }
+	/**
+	 *
+	 * @param drawableSelected selected icon of a tab
+	 * @param drawableUnselected unselected icon of a tab
+	 * @param title tab's title string
+	 * @param tabIndex tab's index
+	 */
+	public BottomNavItem(int drawableSelected, int drawableUnselected, String title, int tabIndex) {
+		mDrawableSelected = drawableSelected;
+		mDrawableUnselected = drawableUnselected;
+		mText = title;
+		mTabIndex = tabIndex;
+//        mTabTag = tabTag;
+	}
 }
